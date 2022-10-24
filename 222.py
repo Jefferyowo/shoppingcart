@@ -5,6 +5,7 @@ import codecs, sys
 sys.stdout = codecs.getwriter('utf8')(sys.stdout.buffer)
 import cgi
 
+# new comment
 #連線DB
 from dbConfig import conn, cur
 #先印出http 表頭
